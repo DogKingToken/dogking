@@ -1,10 +1,10 @@
 /**
- *Submitted for verification at BscScan.com on 2022-02-11
+ *Submitted for verification at BscScan.com on 2022-02-14
 */
 
 pragma solidity ^0.5.0;
 
-interface IHRC20 {
+interface IBSC20 {
     /**
      * @dev Returns the amount of tokens in existence.
      */
@@ -176,7 +176,7 @@ library SafeMath {
 pragma solidity ^0.5.0;
 
 
-contract BSC20 is IHRC20 {
+contract BSC20 is IBSC20 {
     using SafeMath for uint256;
 
     mapping (address => uint256) private _balances;
